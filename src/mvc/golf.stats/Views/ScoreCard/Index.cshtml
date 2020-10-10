@@ -1,2 +1,71 @@
+@model golf.stats.Models.RoundStatsViewModel
 <h1>Score Card</h1>
 
+<table>
+    <tr>
+        <th>Hole</th>
+        @for(int i =1;i<=18;i++)
+        {
+            <td>@i.ToString() </td>
+        }
+    </tr>
+    <tr>
+        <td>
+            Score
+        </td>
+        
+        @for(int i =1;i<=18;i++)
+        {
+            @* <td> <input type ="text" id ="tbScore name = "tbscore"> </td> *@
+            <td>@Html.TextBoxFor(m=>m.Score[i])</td>
+        }
+    </tr>
+    <tr>
+        <td>
+            Tee Shot Club
+        </td>
+        @for(int i =1;i<=18;i++)
+        {
+            <td>@Html.DropDownListFor(m=>m.TeeShotClub[i],new SelectList(Enum.GetValues(typeof(GolfBag))),"Select Club") </td>
+        }
+    </tr>
+    <tr>
+        <td>
+            Fairway in Regulation
+        </td>
+        @for(int i=1;i<=18;i++)
+        {
+            <td> @Html.DropDownListFor(m=>m.FairwayInReg[i],new SelectList(Enum.GetValues(typeof(YesNo))),"Select") </td>
+        }
+    </tr>
+    
+    <tr>
+        <td>
+            Approach Club
+        </td>
+        @for(int i =1;i<=18;i++)
+        {
+            <td>@Html.DropDownListFor(m=>m.ApproachClub[i],new SelectList(Enum.GetValues(typeof(GolfBag))),"Select Club") </td>
+        }
+    </tr>
+
+    <tr>
+        <td>
+            Green in Regulation
+        </td>
+        @for(int i=1;i<=18;i++)
+        {
+            <td> @Html.DropDownListFor(m=>m.GreenInReg[i],new SelectList(Enum.GetValues(typeof(YesNo))),"Select") </td>
+        }
+    </tr>
+
+    <tr>
+        <td>
+            Scrambling
+        </td>
+        @for(int i=1;i<=18;i++)
+        {
+            <td> @Html.DropDownListFor(m=>m.Scrambling[i],new SelectList(Enum.GetValues(typeof(YesNoNa))),"Select") </td>
+        }
+    </tr>
+</table>
