@@ -1,7 +1,8 @@
 @model golf.stats.Models.RoundStatsViewModel
 <h1>Score Card</h1>
 
-<table>
+<table id="statsTable" class="display" style="width:100%">
+    <thead>
     <tr>
         <th>Hole</th>
         @for(int i =1;i<=18;i++)
@@ -9,6 +10,8 @@
             <td>@i.ToString() </td>
         }
     </tr>
+    </thead>
+    <tbody>
     <tr>
         <td>
             Score
@@ -68,4 +71,25 @@
             <td> @Html.DropDownListFor(m=>m.Scrambling[i],new SelectList(Enum.GetValues(typeof(YesNoNa))),"Select") </td>
         }
     </tr>
+    </tbody>
 </table>
+
+
+@section scripts {
+    <script type ="text/javascript">
+        $(document).ready( function () {
+            $('#statsTable').DataTable({
+                "paging": false,
+                "searching":false,
+                "columnDefs": [
+                         { "searchable": false, "targets": 0 },
+                         { "width": "20%", "targets": 0 }
+                ]
+
+            });
+
+            
+        } );
+        
+    </script>
+}
