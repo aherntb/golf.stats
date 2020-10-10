@@ -1,0 +1,89 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v3.1": {
+      "Golf.Stats.Model/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/Golf.Stats.Model.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Golf.Stats.Model.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Golf.Stats.Model/1.0.0": {
+      "type": "project",
+      "path": "../../model/golf.stats.model/Golf.Stats.Model.csproj",
+      "msbuildProject": "../../model/golf.stats.model/Golf.Stats.Model.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v3.1": [
+      "Golf.Stats.Model >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "/Users/aherntb/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/Users/aherntb/programming/Golf.Stats/src/mvc/golf.stats/golf.stats.csproj",
+      "projectName": "golf.stats",
+      "projectPath": "/Users/aherntb/programming/Golf.Stats/src/mvc/golf.stats/golf.stats.csproj",
+      "packagesPath": "/Users/aherntb/.nuget/packages/",
+      "outputPath": "/Users/aherntb/programming/Golf.Stats/src/mvc/golf.stats/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/Users/aherntb/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp3.1"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "projectReferences": {
+            "/Users/aherntb/programming/Golf.Stats/src/model/golf.stats.model/Golf.Stats.Model.csproj": {
+              "projectPath": "/Users/aherntb/programming/Golf.Stats/src/model/golf.stats.model/Golf.Stats.Model.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp3.1": {
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.AspNetCore.App": {
+            "privateAssets": "none"
+          },
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/3.1.102/RuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

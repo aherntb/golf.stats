@@ -1,0 +1,8 @@
+/Users/aherntb/programming/Golf.Stats/src/model/golf.stats.model/bin/Debug/netstandard2.0/Golf.Stats.Model.deps.json
+/Users/aherntb/programming/Golf.Stats/src/model/Golf.Stats.Model/bin/Debug/netstandard2.0/Golf.Stats.Model.dll
+/Users/aherntb/programming/Golf.Stats/src/model/Golf.Stats.Model/bin/Debug/netstandard2.0/Golf.Stats.Model.pdb
+/Users/aherntb/programming/Golf.Stats/src/model/Golf.Stats.Model/obj/Debug/netstandard2.0/Golf.Stats.Model.csprojAssemblyReference.cache
+/Users/aherntb/programming/Golf.Stats/src/model/Golf.Stats.Model/obj/Debug/netstandard2.0/Golf.Stats.Model.AssemblyInfoInputs.cache
+/Users/aherntb/programming/Golf.Stats/src/model/Golf.Stats.Model/obj/Debug/netstandard2.0/Golf.Stats.Model.AssemblyInfo.cs
+/Users/aherntb/programming/Golf.Stats/src/model/Golf.Stats.Model/obj/Debug/netstandard2.0/Golf.Stats.Model.dll
+/Users/aherntb/programming/Golf.Stats/src/model/Golf.Stats.Model/obj/Debug/netstandard2.0/Golf.Stats.Model.pdb
