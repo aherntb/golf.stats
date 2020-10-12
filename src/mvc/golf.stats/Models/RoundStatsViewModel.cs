@@ -3,17 +3,7 @@ using System.Collections.Generic;
 namespace golf.stats.Models
 {
     public class RoundStatsViewModel
-    {
-        
-        public int[] Score { get; set; }
-        public GolfBag[] TeeShotClub { get; set; }
-        public GolfBag[] ApproachClub { get; set; }
-        public YesNo[] FairwayInReg { get; set; }
-        public YesNo[] GreenInReg { get; set; }
-        public YesNoNa[] Scrambling { get; set; }
-        public int[] NumOfPutts { get; set; }
-
-
+    {      
         public List<PostStatsViewModel> Stats { get; set; }
     }
 
