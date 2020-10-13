@@ -36,3 +36,4 @@
 /Users/aherntb/programming/Golf.Stats/src/mvc/golf.stats/bin/Debug/netcoreapp3.1/Golf.Stats.Model.pdb
 /Users/aherntb/programming/Golf.Stats/src/mvc/golf.stats/obj/Debug/netcoreapp3.1/Razor/Views/Competitions/Index.cshtml.g.cs
 /Users/aherntb/programming/Golf.Stats/src/mvc/golf.stats/obj/Debug/netcoreapp3.1/Razor/Views/ScoreCard/Index.cshtml.g.cs
+/Users/aherntb/programming/Golf.Stats/src/mvc/golf.stats/obj/Debug/netcoreapp3.1/Razor/Views/ScoreCard/PostStats.cshtml.g.cs

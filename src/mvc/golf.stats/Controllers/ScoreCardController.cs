@@ -15,8 +15,13 @@ namespace golf.stats.Controllers
             return View();
         }
 
+        public IActionResult PostStats()
+        {
+            return View();
+        }
+
         [HttpPost]
-        public IActionResult Index(RoundStatsViewModel model)
+        public IActionResult PostStats(RoundStatsViewModel model)
         {
             if(!ModelState.IsValid)
             {

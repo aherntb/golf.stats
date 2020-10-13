@@ -20536,6 +20536,11 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "/Users/aherntb/programming/Golf.Stats/src/mvc/golf.stats/Views/ScoreCard/PostStats.cshtml",
+      "TargetPath": "Views\\ScoreCard\\PostStats.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "/Users/aherntb/programming/Golf.Stats/src/mvc/golf.stats/Views/Competitions/Index.cshtml",
       "TargetPath": "Views\\Competitions\\Index.cshtml",
       "FileKind": "mvc"
