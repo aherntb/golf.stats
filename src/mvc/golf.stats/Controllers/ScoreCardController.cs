@@ -16,12 +16,12 @@ namespace golf.stats.Controllers
         }
 
         [HttpPost]
-        public IActionResult PostStats(RoundStatsViewModel model)
+        public IActionResult Index(RoundStatsViewModel model)
         {
             if(!ModelState.IsValid)
             {
                 //todo: this will need to change to do proper error handling
-                return RedirectToAction("index");
+                return View(model);
             }
             return Ok();
         }
